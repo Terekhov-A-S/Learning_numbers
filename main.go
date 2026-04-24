@@ -21,6 +21,9 @@ func main() {
 	//printNumberInfo(num5)
 	//printNumberInfo(num6)
 	printNumberInfo(getInput())
+	fmt.Println("Программа завершена.")
+	fmt.Println("Нажмите Enter, чтобы закрыть...")
+	fmt.Scanln() // Ожидает нажатия клавиши Enter
 }
 
 func getInput() int64 {
